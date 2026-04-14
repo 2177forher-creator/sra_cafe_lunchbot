@@ -2,8 +2,7 @@ name: SRA Lunch Bot
 
 on:
   schedule:
-    # 미국 PDT 오전 10시 30분 = UTC 오후 5시 30분
-    - cron: '30 17 * * 1-5'
+    - cron: '30 17 * * 1-5' # 미국 PDT 오전 10시 30분
   workflow_dispatch: 
 
 jobs:
